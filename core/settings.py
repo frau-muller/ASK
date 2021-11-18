@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#zt6_3x4l3*t_#dh=a%z9c=ytz0u8s*370dys!x4_ih4*79#=4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['henadzi.pythonanywhere.com']#'henadzi.pythonanywhere.com'
+ALLOWED_HOSTS = []#'henadzi.pythonanywhere.com'
 
 
 # Application definition
@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework'
     'quiz',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [

@@ -1,7 +1,7 @@
 from django.urls import path
 from .views import Quiz, RandomQuestion, QuizQuestion
 
-app_name='quiz'
+app_name = 'quiz'
 
 urlpatterns = [
     path('', Quiz.as_view(), name='quiz'),
